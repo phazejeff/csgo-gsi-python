@@ -3,8 +3,8 @@ from operator import attrgetter
 from threading import Thread
 import json
 
-import gamestate
-import payloadparser
+from cs2.cs2 import gamestate
+from cs2.cs2 import payloadparser
 
 class GSIServer(HTTPServer):
     def __init__(self, server_address, auth_token):

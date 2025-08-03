@@ -1,4 +1,4 @@
-import gamestate
+from cs2.cs2 import gamestate
 
 class PayloadParser:
     def parse_payload(self, payload, gamestate):

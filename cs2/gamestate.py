@@ -1,4 +1,4 @@
-import information
+from cs2.cs2 import information
 
 class GameState:
     def __init__(self):
